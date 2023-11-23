@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+
+
+.app-body{
+    background: red;
+    flex: 8;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.app-footer{
+    background: green;
+    flex: 1;
+}
+
+.left{
+    flex: 1;
+    background: wheat;
+}
+
+.mid {
+    flex: 8;
+    background: pink;
+}
+
+.right{
+    flex: 1;
+    background: mintcream;
+}
+
+
+.search-box{
+    display: flex;
+}
+
+.keyword-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.keyword-box div {
+    margin-right: 10px;
+    background-color: aqua;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+
+@media (max-width: 1490px){
+
+    .app-header{
+        background: blue;
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+.nav-right{
+    display: flex;
+   color: wheat;
+}
+
+
+.nav-right div{
+    margin-right: 5px;
+}
+
+.nav-left {
+    margin-left: 10px;
+    color: white;
+}
+
+.search-box p {
+    margin-right: 5px;
+}
+.search-box button {
+    margin-left: 5px;
+}
+
+
+
+}
+
+@media (max-width: 669px){
+
+    .app-header{
+        background: blue;
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-right: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .nav-right{
+        display: flex;
+       color: wheat;
+    }
+    
+    
+    .nav-right div{
+        margin-right: 5px;
+    }
+    
+    }
+    
+    
+    @media (max-width: 429px){
+
+        .app-header{
+            background: blue;
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-right: 10px;
+            flex-direction: column-reverse;
+        }
+    
+        .nav-right{
+            display: flex;
+           color: wheat;
+           flex-direction: column;
+        }
+        
+        
+        .nav-right div{
+            margin-right: 5px;
+        }
+        
+        }
+    
+        
+        .content-box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+
+        .box-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            margin: 10px 10px 10px 10px;
+            border-radius: 10px;
+            padding: 10px;
+            flex: 1;
+        }
+
+        .pic-box img{
+            height: 170px;
+        }
+
+        
+    
